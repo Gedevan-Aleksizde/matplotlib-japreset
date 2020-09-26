@@ -2,7 +2,7 @@
 
 `matplotlib` で日本語を自由に表示し保存するための自動設定モジュール
 
-**Linuxでしか動作確認していない**
+**Linuxでしか動作確認していません**
 
 ```sh
 pip install -U git+https://github.com/Gedevan-Aleksizde/matplotlib-japreset.git@master
@@ -10,19 +10,19 @@ pip install -U git+https://github.com/Gedevan-Aleksizde/matplotlib-japreset.git@
 
 ## 特徴
 
-* OS ごとに標準フォントを選ぶ
-* 用途ごとに選択できる
+* ヒラギノ, 游書体 Noto, など OS ごとの標準フォントをデフォルトで使用します
+* 用途ごとに選択できます
   + ラスタ画像 or PDF + フォント埋め込み (非Type3)
   + PDF + フォントサブセット化 + LaTeX 数式有効 (要 TeX)
   + SVG + フォント埋め込み
-* どれも不要, 日本語表示できればなんでもいいと言う人は japanize-matplotlib のほうが手っ取り早い
+* どれも不要, 日本語表示できればなんでもいいと言う人は japanize-matplotlib のほうが手っ取り早いです
 
 ## 要件
 
 * `matplotlib` >= 3.3.1 
 * (オプション: Cairoモード使用時) `pycairo` >= 1.19.1 or `cairoffi` >= 1.1.0
 * (オプション: PGFモード使用時) 最新の TeX
-* (オプション) Noto フォント. Debian や Cent OS など Noto がプリインされていない環境の場合
+* (オプション) Noto フォント. Debian や Cent OS など Noto がプリインされていないLinux系環境の場合
 
 ## インストール方法
 
@@ -92,6 +92,8 @@ rcParams['font.family'] = 'FONT NAME'
 ```
 
 または UNIX系 (Linux/Mac) ならば `fc-list` で表示される postscript name を使ってください.
+
+**ただし, OpenType や `.ttc` 形式のフォントは指定しても動作しないことがあります.**
 
 ## 注意事項
 
