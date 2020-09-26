@@ -1,4 +1,12 @@
-# `matplotlib` で日本語を自由に表示し保存するための自動設定モジュール
+# matplotlib-japreset
+
+`matplotlib` で日本語を自由に表示し保存するための自動設定モジュール
+
+**Linuxでしか動作確認していない**
+
+```sh
+pip install -U git+https://github.com/Gedevan-Aleksizde/matplotlib-japreset.git@master
+```
 
 ## 特徴
 
