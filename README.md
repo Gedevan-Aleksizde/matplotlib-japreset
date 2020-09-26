@@ -24,6 +24,14 @@ pip install -U git+https://github.com/Gedevan-Aleksizde/matplotlib-japreset.git@
 * (オプション: PGFモード使用時) 最新の TeX
 * (オプション) Noto フォント. Debian や Cent OS など Noto がプリインされていない環境の場合
 
+## インストール方法
+
+```sh
+pip install -U git+https://github.com/Gedevan-Aleksizde/matplotlib-japreset.git@master
+```
+
+conda でgithubから直接インストールする方法は自分で調べてください
+
 ### 補足
 
 `pycairo`/`cairoffi`いずれも `pip` でインストール可能です. インストール時に
@@ -48,14 +56,6 @@ brew install pkg-config
 ```
 
 でたぶんなんとかなります.
-
-## インストール方法
-
-```sh
-pip install -U git+https://github.com/Gedevan-Aleksizde/matplotlib-japreset.git@master
-```
-
-conda でgithubから直接インストールする方法は自分で調べてください
 
 ## 使い方
 
