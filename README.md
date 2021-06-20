@@ -15,7 +15,7 @@ pip install -U git+https://github.com/Gedevan-Aleksizde/matplotlib-japreset.git@
   + ラスタ画像 or PDF + フォント埋め込み (非Type3)
   + PDF + フォントサブセット化 + LaTeX 数式有効 (要 TeX)
   + SVG + フォント埋め込み
-* どれも不要, 日本語表示できればなんでもいいと言う人は japanize-matplotlib のほうが手っ取り早いです
+* どれも不要, ディスプレイ上で日本語表示さえできればなんでもいいと言う人は japanize-matplotlib のほうが手っ取り早いです
 
 ## 要件
 
